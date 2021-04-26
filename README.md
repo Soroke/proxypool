@@ -11,8 +11,8 @@
   <a href="https://goreportcard.com/report/github.com/Sansui233/proxypool">
     <img src="https://goreportcard.com/badge/github.com/Sansui233/proxypool?style=flat-square">
   </a>
-  <a href="https://github.com/lanhebe/proxypool/releases">
-    <img src="https://img.shields.io/github/release/lanhebe/proxypool/all.svg?style=flat-square">
+  <a href="https://github.com/Soroke/proxypool/releases">
+    <img src="https://img.shields.io/github/release/Soroke/proxypool/all.svg?style=flat-square">
   </a>
 </p>
 
@@ -33,7 +33,7 @@
 以下五选一。
 ### 使用一键脚本安装到VPS  (Littleyu增加一键脚本安装功能，目前仅支持CentOS 7操作系统)
 ```sh
-wget https://raw.githubusercontent.com/lanhebe/proxypool/master/onekey_install.sh && chmod +x onekey_install.sh && ./onekey_install.sh
+wget https://raw.githubusercontent.com/Soroke/proxypool/master/onekey_install.sh && chmod +x onekey_install.sh && ./onekey_install.sh
 ```
 
 ### 使用Heroku
@@ -56,7 +56,7 @@ wget https://raw.githubusercontent.com/lanhebe/proxypool/master/onekey_install.s
 需要安装Golang 
 
 ```sh
-$ go get -u -v github.com/lanhebe/proxypool
+$ go get -u -v github.com/Soroke/proxypool
 ```
 
 运行
@@ -71,12 +71,12 @@ make
 
 ### 下载预编译程序
 
-从这里下载预编译好的程序 [release](https://github.com/lanhebe/proxypool/releases)。
+从这里下载预编译好的程序 [release](https://github.com/Soroke/proxypool/releases)。
 
 ### 使用docker
 
 ```sh
-docker pull docker.pkg.github.com/lanhebe/proxypool/proxypool:latest
+docker pull docker.pkg.github.com/Soroke/proxypool/proxypool:latest
 ```
 
 ## 使用
